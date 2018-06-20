@@ -33,10 +33,10 @@ function initSwaggerUi() {
             SwaggerUIBundle.presets.apis,
             SwaggerUIStandalonePreset
         ],
-        plugins: [
-            SwaggerUIBundle.plugins.DownloadUrl
-        ],
-        layout: "StandaloneLayout",
+        // plugins: [
+        //     SwaggerUIBundle.plugins.DownloadUrl
+        // ],
+        // layout: "StandaloneLayout",
         filter: true,
         requestInterceptor: function (request) {
             var headers = request.headers || {};
